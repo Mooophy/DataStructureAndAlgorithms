@@ -516,4 +516,12 @@ namespace YuGeneric
             }
         }
     }
+
+    public class Func<T>
+    {
+        public void Concate(LList<T> lhs, LList<T> rhs)
+        {
+            lhs = rhs;
+        }
+    }
 }
